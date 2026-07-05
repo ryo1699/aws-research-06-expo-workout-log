@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Expo / build
+.expo/
+*.ipa
+
+# アバターの元画像・中間ドット絵画像（アプリには含まれない。実データは app/src/creatureData.ts）
+avatars/source/
+avatars/pixel/
+
+# Python cache
+__pycache__/
+*.pyc
